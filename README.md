@@ -55,5 +55,8 @@ Db engine specific SQL script can be generated using `php artisan migrate --pret
 
 Try some unsafe URLs from ShortUrlController::create method comment
 
+### Run tests
+`./vendor/bin/phpunit`
+
 
 
