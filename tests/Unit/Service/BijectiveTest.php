@@ -13,7 +13,7 @@ class BijectiveTest extends TestCase
     /**
      * @throws \Exception
      */
-    public function test_it_generate_6_chars_alphanumeric()
+    public function test_it_can_generate_6_chars_alphanumeric()
     {
         $str = (new Bijective())->encode(NumsHelper::from(0));
         self::assertTrue(boolval(preg_match('/[a-zA-Z0-9]{6}/', $str)));
